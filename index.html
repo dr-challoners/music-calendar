@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic'>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="tabletop1.3.4.js"></script>
+    <script type="text/javascript" src="sheetsee.js"></script>
+    <script type="text/javascript" src="table.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+
+  <h1>Music Calendar</h1>
+  <div id="calendar-goes-here"></div>
+
+  </body>
+    <script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function() {
+      var URL = "1GIHDy8XsegDGDJCzYc9sCET5FTrwHvpKV2ZCYJBLwCk"
+      Tabletop.init( { key: URL, callback: generateCalendar, simpleSheet: true } )
+    })
+  </script>
+</html>
