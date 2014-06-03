@@ -1,4 +1,4 @@
-music-calendar
-==============
+Music Department Calendar
+=========================
 
-Music Event Calendar
+Visible at: http://dr-challoners.github.io/music-calendar
